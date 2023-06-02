@@ -42,5 +42,22 @@ int main(){
     cout << maior;
 }
 
+/*
 
+#include <bits/stdc++.h>
+#define ll int64_t
+using namespace std;
+int ans = 1,len = 1;
+int main(){
+    cin.tie(0)->sync_with_stdio(0);
+    string s; cin >> s;
+    for (int i = 1 ; i < s.size() ; i++){
+        if (s[i] == s[i - 1]) ++len;
+        else len = 1;
+        ans = max(ans,len);
+    }
+    cout << ans;
+}
+
+*/
 
