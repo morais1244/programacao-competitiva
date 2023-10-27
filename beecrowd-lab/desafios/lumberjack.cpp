@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
     int n, lumbj[10];
-    cin >> n;
+    cin >> n;	
     cout << "Lumberjacks:\n";
     while(n--){
         int m = 0;
